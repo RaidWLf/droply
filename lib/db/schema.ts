@@ -58,3 +58,4 @@ export const FileInsert = typeof filesTable.$inferInsert;
 export const File = typeof filesTable.$inferSelect;
 
 // TODO: know more about $inferSelect and $inferInsert
+// TODO: Understand the schema and relations better
