@@ -136,7 +136,7 @@ export default function SignInForm() {
 									isIconOnly
 									variant="light"
 									size="sm"
-									onClick={() =>
+									onPress={() =>
 										setShowPassword(!showPassword)
 									}
 									type="button"

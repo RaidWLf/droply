@@ -54,8 +54,8 @@ export const filesRelations = relations(filesTable, ({ one, many }) => ({
 // TypeScript types for the table and relations
 // $inferSelect is used to infer the types of the selected columns from the table
 
-export const FileInsert = typeof filesTable.$inferInsert;
-export const File = typeof filesTable.$inferSelect;
+export type FileInsert = typeof filesTable.$inferInsert;
+export type File = typeof filesTable.$inferSelect;
 
 // TODO: know more about $inferSelect and $inferInsert
 // TODO: Understand the schema and relations better
